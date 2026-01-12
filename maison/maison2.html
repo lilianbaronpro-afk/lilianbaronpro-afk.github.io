@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ferme Rénovée - Chabrac, France</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .back { color: white; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        h1 { margin: 0; font-size: 2.8rem; }
+        h2 { color: #1e3c72; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem; }
+        .price { font-size: 2.2rem; color: #d32f2f; font-weight: bold; margin: 1rem 0; text-align: center; }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+            margin: 2rem 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover { transform: scale(1.04); }
+        .features {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin: 2rem 0;
+        }
+        ul { list-style: none; padding: 0; }
+        li { margin: 0.8rem 0; font-size: 1.1rem; }
+        li:before { content: "✔ "; color: #4caf50; font-weight: bold; }
+        .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 768px) { .section-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ferme Indépendante Rénovée – Chabrac, France</h1>
+    <p>Grande ferme en pierre | Piscine privée | Jardin | Idéal familles & chiens</p>
+    <p><a href="maisons.html" class="back">← Retour à la liste des maisons</a></p>
+</header>
+
+<div class="container">
+
+    <div class="price">1 151 € pour 6 nuits</div>
+    <div class="price">144 € par personne pour 6 nuits a 8 personne</div>
+
+
+    <h2>Galerie du logement (15 photos)</h2>
+    <div class="gallery">
+        <img src="images/maison2/photo1.jpg" alt="Extérieur ferme avec piscine">
+        <img src="images/maison2/photo2.jpg" alt="Vue jardin et piscine">
+        <img src="images/maison2/photo3.jpg" alt="Façade pierre Charente">
+        <img src="images/maison2/photo4.jpg" alt="Piscine privée">
+        <img src="images/maison2/photo5.jpg" alt="Jardin spacieux">
+        <img src="images/maison2/photo6.jpg" alt="Intérieur salon cosy">
+        <img src="images/maison2/photo7.jpg" alt="Cuisine équipée rustique">
+        <img src="images/maison2/photo8.jpg" alt="Espace repas intérieur">
+        <img src="images/maison2/photo9.jpg" alt="Détail pierre et bois">
+        <img src="images/maison2/photo10.jpg" alt="Ambiance ferme rénovée">
+        <img src="images/maison2/photo11.jpg" alt="Chambre double">
+        <img src="images/maison2/photo12.jpg" alt="Chambre confortable">
+        <img src="images/maison2/photo13.jpg" alt="Salle de bain">
+        <img src="images/maison2/photo14.jpg" alt="Jardin avec barbecue">
+        <img src="images/maison2/photo15.jpg" alt="Terrasse extérieure">
+    </div>
+
+    <h2>Ce que propose ce logement</h2>
+    <div class="features section-grid">
+        <div>
+            <h3>Le logement</h3>
+            <ul>
+                <li>Ferme indépendante entièrement rénovée en pierre de la Charente</li>
+                <li>Grand jardin privé avec petite piscine</li>
+                <li>Barbecue, chaises longues, coin repas extérieur</li>
+                <li>Court de boules</li>
+                <li>Légumes du jardin en été</li>
+                <li>Pack de bienvenue + dîner sur réservation (prix modique)</li>
+                <li>Proche des lacs (vélo, sports nautiques, pêche)</li>
+                <li>Propriétaires sur place mais séparés (intimité assurée)</li>
+            </ul>
+
+            <h3>Salle de bain</h3>
+            <ul>
+                <li>Sèche-cheveux</li>
+                <li>Eau chaude</li>
+            </ul>
+
+            <h3>Chambre & Linge</h3>
+            <ul>
+                <li>Lave-linge</li>
+                <li>Serviettes, draps, savon, papier toilette</li>
+                <li>Cintres</li>
+                <li>Fer à repasser</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Cuisine & Salle à manger</h3>
+            <ul>
+                <li>Cuisine entièrement équipée</li>
+                <li>Four à micro-ondes</li>
+                <li>Équipements de base (casseroles, huile, sel/poivre)</li>
+                <li>Vaisselle, couverts, bols, assiettes, tasses</li>
+            </ul>
+
+            <h3>Extérieur & Parking</h3>
+            <ul>
+                <li>Brasero</li>
+                <li>Mobilier d'extérieur</li>
+                <li>Espace repas en plein air</li>
+                <li>Barbecue</li>
+                <li>Parking gratuit sur place (3 voitures)</li>
+                <li>Parking gratuit dans la rue</li>
+                <li>Piscine privée</li>
+                <li>Entrée privée</li>
+            </ul>
+
+            <h3>Divertissement & Confort</h3>
+            <ul>
+                <li>Télévision</li>
+                <li>Chauffage</li>
+                <li>Wifi</li>
+            </ul>
+
+            <h3>Sécurité</h3>
+            <ul>
+                <li>Détecteur de fumée</li>
+                <li>Détecteur de monoxyde de carbone</li>
+                <li>Extincteur</li>
+                <li>Kit de premiers secours</li>
+            </ul>
+
+            <h3>Services</h3>
+            <ul>
+                <li>Animaux acceptés (animaux d'assistance toujours OK)</li>
+            </ul>
+
+            <h3>Non inclus</h3>
+            <ul>
+                <li>Pas de sèche-linge</li>
+                <li>Pas de climatisation</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

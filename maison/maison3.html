@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Maison Familiale - Saint-Loubouer, France</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .back { color: white; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        h1 { margin: 0; font-size: 2.8rem; }
+        h2 { color: #1e3c72; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem; }
+        .price { font-size: 2.2rem; color: #d32f2f; font-weight: bold; margin: 1rem 0; text-align: center; }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+            margin: 2rem 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover { transform: scale(1.04); }
+        .features {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin: 2rem 0;
+        }
+        ul { list-style: none; padding: 0; }
+        li { margin: 0.8rem 0; font-size: 1.1rem; }
+        li:before { content: "✔ "; color: #4caf50; font-weight: bold; }
+        .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 768px) { .section-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Maison Familiale – Saint-Loubouer, France (Villa Daisy)</h1>
+    <p>Grande maison avec jardin & piscine partagée | Idéal familles, enfants & animaux</p>
+    <p><a href="maisons.html" class="back">← Retour à la liste des maisons</a></p>
+</header>
+
+<div class="container">
+
+    <div class="price">937 € pour 6 nuits</div>
+    <div class="price">118 € par personne pour 8 personnes</div>
+
+    <h2>Galerie du logement (33 photos)</h2>
+    <div class="gallery">
+        <!-- Photo 1 à 33 – renomme-les photo1.jpg à photo33.jpg dans images/maison3/ -->
+        <img src="images/maison3/photo1.png" alt="Extérieur maison campagne">
+        <img src="images/maison3/photo2.png" alt="Jardin privatif et piscine">
+        <img src="images/maison3/photo3.png" alt="Patio partagé avec hamac">
+        <img src="images/maison3/photo4.png" alt="Barbecue et espace extérieur">
+        <img src="images/maison3/photo5.png" alt="Piscine commune">
+        <img src="images/maison3/photo6.png" alt="Vue jardin partagé">
+        <img src="images/maison3/photo7.png" alt="Terrasse couverte">
+        <img src="images/maison3/photo8.png" alt="Entrée maison">
+        <img src="images/maison3/photo9.png" alt="Arrière-cour herbeuse">
+        <img src="images/maison3/photo10.png" alt="Brasero extérieur">
+        <img src="images/maison3/photo11.png" alt="Mobilier jardin">
+        <img src="images/maison3/photo12.png" alt="Espace repas extérieur">
+        <img src="images/maison3/photo13.png" alt="Hamac relax">
+        <img src="images/maison3/photo14.png" alt="Piscine été">
+        <img src="images/maison3/photo15.png" alt="Jardin familial">
+        <img src="images/maison3/photo16.png" alt="Séjour avec cheminée électrique">
+        <img src="images/maison3/photo17.png" alt="Cuisine moderne">
+        <img src="images/maison3/photo18.png" alt="Salle à manger">
+        <img src="images/maison3/photo19.png" alt="Intérieur cosy">
+        <img src="images/maison3/photo20.png" alt="Cheminée bois">
+        <img src="images/maison3/photo21.jpg" alt="Détail intérieur rustique">
+        <img src="images/maison3/photo22.jpg" alt="Séjour 35m²">
+        <img src="images/maison3/photo23.jpg" alt="Cuisine équipée">
+        <img src="images/maison3/photo24.jpg" alt="Salle d'eau">
+        <img src="images/maison3/photo25.jpg" alt="Entrée 13m²">
+        <img src="images/maison3/photo26.jpg" alt="Chambre 1">
+        <img src="images/maison3/photo27.jpg" alt="Chambre 2">
+        <img src="images/maison3/photo28.jpg" alt="Chambre 3">
+        <img src="images/maison3/photo29.jpg" alt="Lit bébé / chaise haute">
+        <img src="images/maison3/photo30.jpg" alt="Barrières sécurité bébé">
+        <img src="images/maison3/photo31.jpg" alt="Chambre familiale">
+        <img src="images/maison3/photo32.jpg" alt="Détail chambre rustique">
+        <img src="images/maison3/photo33.jpg" alt="Ambiance campagne">
+    </div>
+
+    <h2>Ce que propose ce logement</h2>
+    <div class="features section-grid">
+        <div>
+            <h3>Le logement</h3>
+            <ul>
+                <li>Grande maison familiale avec jardin privatif</li>
+                <li>Proximité de la maison du propriétaire (mais indépendante)</li>
+                <li>Possibilité de louer studio attenant (3 pers max) ou autres logements</li>
+                <li>Grand séjour 35 m² avec cheminée électrique</li>
+                <li>Salle à manger avec cheminée</li>
+                <li>Cuisine moderne 34 m²</li>
+                <li>Terrasse couverte</li>
+                <li>3 chambres</li>
+                <li>2 salles d'eau</li>
+                <li>Entrée 13 m²</li>
+                <li>Chauffage électrique</li>
+                <li>Idéal pour se détendre en campagne, Pyrénées et océan Atlantique à ~1h30</li>
+                <li>Vignobles, fromages locaux, restaurants et fêtes</li>
+            </ul>
+
+            <h3>Salle de bain</h3>
+            <ul>
+                <li>Sèche-cheveux</li>
+                <li>Eau chaude</li>
+            </ul>
+
+            <h3>Chambre & Linge</h3>
+            <ul>
+                <li>Lave-linge gratuit</li>
+                <li>Sèche-linge</li>
+                <li>Serviettes, draps, savon, papier toilette</li>
+                <li>Cintres</li>
+                <li>Oreillers et couvertures supplémentaires</li>
+                <li>Fer à repasser</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Cuisine & Salle à manger</h3>
+            <ul>
+                <li>Cuisine complète</li>
+                <li>Réfrigérateur, four à micro-ondes</li>
+                <li>Lave-vaisselle, cuisinière, four</li>
+                <li>Cafetière</li>
+                <li>Équipements de base (casseroles, huile, sel/poivre)</li>
+                <li>Vaisselle, couverts, bols, assiettes, tasses</li>
+            </ul>
+
+            <h3>Extérieur & Parking</h3>
+            <ul>
+                <li>Patio ou balcon privé</li>
+                <li>Arrière-cour partagée (clôture partielle)</li>
+                <li>Brasero</li>
+                <li>Mobilier d'extérieur</li>
+                <li>Hamac</li>
+                <li>Espace repas en plein air</li>
+                <li>Barbecue</li>
+                <li>Parking gratuit sur place</li>
+                <li>Piscine commune</li>
+                <li>Entrée privée</li>
+            </ul>
+
+            <h3>Divertissement & Confort</h3>
+            <ul>
+                <li>Télévision</li>
+                <li>Cheminée ou poêle à bois intérieur</li>
+                <li>Chauffage</li>
+            </ul>
+
+            <h3>Famille</h3>
+            <ul>
+                <li>Lit pour bébé</li>
+                <li>Lit parapluie</li>
+                <li>Chaise haute</li>
+                <li>Barrières de sécurité pour bébé</li>
+            </ul>
+
+            <h3>Sécurité</h3>
+            <ul>
+                <li>Détecteur de fumée</li>
+            </ul>
+
+            <h3>Services</h3>
+            <ul>
+                <li>Animaux acceptés (animaux d'assistance toujours OK)</li>
+                <li>Dépôt de bagages autorisé</li>
+                <li>Séjours longue durée (28+ jours) autorisés</li>
+                <li>Ménage disponible pendant le séjour</li>
+            </ul>
+
+            <h3>Non inclus</h3>
+            <ul>
+                <li>Pas de caméras de surveillance extérieures</li>
+                <li>Pas de Wifi</li>
+                <li>Pas de climatisation</li>
+                <li>Pas de détecteur de monoxyde de carbone (non nécessaire selon l'hôte)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

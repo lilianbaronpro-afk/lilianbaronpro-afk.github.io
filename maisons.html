@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Maisons</title>
+    <style>
+    body { 
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        background-color: #f4f4f4; 
+        text-align: center; 
+    }
+    header { 
+        background-color: #2196F3; 
+        color: white; 
+        padding: 30px 20px; 
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+    }
+    .back {
+        display: block;
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+    .grid { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+        gap: 25px; 
+        margin: 30px 20px; 
+        padding: 0 10px;
+    }
+    .item { 
+        cursor: pointer; 
+        background: white; 
+        border-radius: 16px; 
+        overflow: hidden; 
+        box-shadow: 0 6px 20px rgba(0,0,0,0.12); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    }
+    .item:hover { 
+        transform: translateY(-10px); 
+        box-shadow: 0 15px 35px rgba(0,0,0,0.18); 
+    }
+    .item img { 
+        width: 100%; 
+        height: 240px;                  /* Hauteur un peu plus grande pour un meilleur rendu */
+        object-fit: cover;              /* ← IMPORTANT : garde les proportions, coupe les bords si besoin */
+        object-position: center;        /* Centre l'image (évite de couper les têtes ou la piscine) */
+        display: block;
+    }
+    .item h2 { 
+        margin: 15px 10px; 
+        font-size: 1.4rem;
+        color: #333;
+    }
+    a { 
+        color: #2196F3; 
+        text-decoration: none; 
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Choisis une Maison</h1>
+        <a href="index.html">Retour à l'accueil</a>
+    </header>
+    <div class="grid">
+    <!-- Maison 1 : Villa Saint-Cybardeaux -->
+    <div class="item" onclick="window.location.href='maison/maison1.html';">
+        <img src="maison/images/maison1/affiche.jpg" alt="Villa Saint-Cybardeaux">
+        <h2>Villa Entière – Saint-Cybardeaux</h2>
+        <div class="price">1 339 € pour 6 nuits</div>
+    </div>
+
+    <!-- Maison 2 : Ferme Chabrac -->
+    <div class="item" onclick="window.location.href='maison/maison2.html';">
+        <img src="maison/images/maison2/affiche.jpg" alt="Ferme Chabrac">
+        <h2>Ferme Indépendante Rénovée – Chabrac</h2>
+        <div class="price">1 151 € pour 6 nuits</div>
+    </div>
+
+    <!-- Maison 3 : Maison Saint-Loubouer -->
+    <div class="item" onclick="window.location.href='maison/maison3.html';">
+        <img src="maison/images/maison3/affiche.jpg" alt="Maison Saint-Loubouer">
+        <h2>Logement entier : hébergement - Saint-Loubouer, France</h2>
+        <div class="price">937 € pour 6 nuits</div>
+    </div>
+
+    <!-- Maison 4 : Villa Louis Jou Arles (maintenant bien séparée !) -->
+    <div class="item" onclick="window.location.href='maison/maison4.html';">
+        <img src="maison/images/maison4/affiche.jpg" alt="Villa Louis Jou Arles">
+        <h2>Logement entier : villa - Arles, France</h2>
+        <div class="price">1 430 € pour 6 nuits</div>
+    </div>
+</div>
+        <!-- Ajoute d'autres maisons -->
+    </div>
+</body>
+</html>

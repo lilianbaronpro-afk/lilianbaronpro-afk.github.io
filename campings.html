@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Campings</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        header { background-color: #4CAF50; color: white; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px; }
+        .item { cursor: pointer; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .item:hover { transform: scale(1.05); }
+        .item img { width: 100%; height: 200px; object-fit: cover; }
+        h2 { margin: 10px; }
+        a { color: #4CAF50; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Choisis un Camping</h1>
+        <a href="index.html">Retour à l'accueil</a>
+    </header>
+    <div class="grid">
+        <div class="item" onclick="window.location.href='camping1.html';">
+            <img src="https://source.unsplash.com/random/400x300/?camping,tent" alt="Camping 1">
+            <h2>Camping des Pins</h2>
+        </div>
+        <div class="item" onclick="window.location.href='camping2.html';">
+            <img src="https://source.unsplash.com/random/400x300/?camping,forest" alt="Camping 2">
+            <h2>Camping Lac Bleu</h2>
+        </div>
+        <!-- Ajoute plus d'items ici pour d'autres campings -->
+    </div>
+</body>
+</html>
