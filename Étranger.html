@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Maisons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f2; /* fond crème doux pour matcher l'or */
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(to right, #b8860b, #ffd700); /* dégradé or */
+            color: white;
+            padding: 40px 20px;
+            box-shadow: 0 6px 15px rgba(184,134,11,0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+        }
+        .back {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+        .back:hover {
+            text-decoration: underline;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin: 40px 25px;
+            padding: 0 15px;
+        }
+        .item {
+            cursor: pointer;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(184,134,11,0.15);
+            transition: all 0.35s ease;
+            border: 1px solid #ffd70033;
+        }
+        .item:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 45px rgba(184,134,11,0.35);
+            border-color: #ffd700;
+        }
+        .item img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+        .item h2 {
+            margin: 18px 12px 10px;
+            font-size: 1.6rem;
+            color: #b8860b;
+        }
+        .price {
+            color: #b8860b;
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Choisis une Maison</h1>
+        <a href="index.html" class="back">Retour à l'accueil</a>
+    </header>
+
+    <div class="grid">
+        <!-- Maison 1 -->
+        <div class="item" onclick="window.location.href='maison/maison1.html';">
+            <img src="maison/images/maison1/affiche.jpg" alt="Villa Saint-Cybardeaux">
+            <h2>Villa Entière – Saint-Cybardeaux</h2>
+            <div class="price">1 339 € pour 6 nuits</div>
+        </div>
+
+        <!-- Maison 2 -->
+        <div class="item" onclick="window.location.href='maison/maison2.html';">
+            <img src="maison/images/maison2/affiche.jpg" alt="Ferme Chabrac">
+            <h2>Ferme Indépendante Rénovée – Chabrac</h2>
+            <div class="price">1 151 € pour 6 nuits</div>
+        </div>
+
+        <!-- Maison 3 -->
+        <div class="item" onclick="window.location.href='maison/maison3.html';">
+            <img src="maison/images/maison3/affiche.jpg" alt="Maison Saint-Loubouer">
+            <h2>Logement entier : hébergement - Saint-Loubouer</h2>
+            <div class="price">937 € pour 6 nuits</div>
+        </div>
+
+        <!-- Maison 4 -->
+        <div class="item" onclick="window.location.href='maison/maison4.html';">
+            <img src="maison/images/maison4/affiche.jpg" alt="Villa Louis Jou Arles">
+            <h2>Logement entier : villa - Arles</h2>
+            <div class="price">1 430 € pour 6 nuits</div>
+        </div>
+    </div>
+</body>
+</html>
