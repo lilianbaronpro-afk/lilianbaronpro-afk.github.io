@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Villa Vue Mer & Montagne - Cerbère, France</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f8f9fa; margin: 0; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(to right, #1e3c72, #2a5298); color: white; padding: 3rem 1rem; text-align: center; }
+        .back { color: white; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        h1 { margin: 0; font-size: 2.8rem; }
+        h2 { color: #1e3c72; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem; }
+        .price { font-size: 2.2rem; color: #d32f2f; font-weight: bold; margin: 1rem 0; text-align: center; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin: 2rem 0; }
+        .gallery img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.12); transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.04); }
+        .features { background: white; padding: 1.8rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 2rem 0; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 0.8rem 0; font-size: 1.1rem; }
+        li:before { content: "✔ "; color: #4caf50; font-weight: bold; }
+        .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 768px) { .section-grid { grid-template-columns: 1fr; } }
+        .airbnb-btn { text-align: center; margin: 2.5rem 0; }
+        .airbnb-btn a {
+            background: #FF385C; color: white; padding: 16px 40px; border-radius: 50px; text-decoration: none;
+            font-size: 1.4rem; font-weight: bold; box-shadow: 0 6px 20px rgba(255,56,92,0.3); transition: all 0.3s; display: inline-block;
+        }
+        .airbnb-btn a:hover { background: #e03153; transform: translateY(-3px); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Villa Vue 360° Mer & Montagne – Cerbère</h1>
+    <p>Villa récente (2014) | Piscine privée | 8 personnes | Calme absolu</p>
+    <p><a href="maisons.html" class="back">← Retour à la liste des maisons</a></p>
+</header>
+
+<div class="container">
+
+    <div class="price">1 822 € pour 6 nuits</div>
+    <div class="price">228 € par personne (pour 8 personnes)</div>
+
+    <div class="airbnb-btn">
+        <a href="https://www.airbnb.fr/rooms/XXXXXXXXXXXX" target="_blank" rel="noopener noreferrer">
+            Voir l'annonce complète sur Airbnb
+        </a>
+    </div>
+
+    <h2>Localisation</h2>
+    <div class="gallery" style="margin: 1.5rem 0;">
+        <img src="images/maison5/gps1.png" alt="Vue sur la baie de Cerbère">
+        <img src="images/maison5/gps2.png" alt="Accès villa et environs">
+    </div>
+
+    <h3>Carte Google Maps</h3>
+    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.951082413345!2d3.164579615456!3d42.443888979182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a5f3e8f3e8f3e8%3A0x9f9f9f9f9f9f9f9f!2sCerb%C3%A8re%2C%20France!5e0!3m2!1sfr!2sfr!4v1700000000000" 
+            width="100%" height="450" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+
+    <h2>Galerie du logement (14 photos)</h2>
+    <div class="gallery">
+        <img src="images/maison5/image1.jpg" alt="Vue panoramique 360°">
+        <img src="images/maison5/image2.jpg" alt="Piscine privée">
+        <img src="images/maison5/image3.jpg" alt="Terrasse vue mer">
+        <img src="images/maison5/image4.jpg" alt="Salon lumineux">
+        <img src="images/maison5/image5.jpg" alt="Cuisine équipée">
+        <img src="images/maison5/image6.jpg" alt="Chambre 1">
+        <img src="images/maison5/image7.jpg" alt="Chambre 2">
+        <img src="images/maison5/image8.jpg" alt="Chambre 3">
+        <img src="images/maison5/image9.jpg" alt="Chambre 4">
+        <img src="images/maison5/image10.jpg" alt="Salle d'eau">
+        <img src="images/maison5/image11.jpg" alt="Jardin paysager">
+        <img src="images/maison5/image12.jpg" alt="Terrasse haute">
+        <img src="images/maison5/image13.jpg" alt="Vue montagne">
+        <img src="images/maison5/image14.jpg" alt="Coucher de soleil depuis la villa">
+    </div>
+
+    <h2>Ce que propose ce logement</h2>
+    <div class="features section-grid">
+        <div>
+            <h3>Vues & Extérieur</h3>
+            <ul>
+                <li>Vues panoramiques 360° mer et montagne</li>
+                <li>Vue sur la baie</li>
+                <li>Piscine privée (non chauffée, usage exclusif)</li>
+                <li>Vastes terrasses</li>
+                <li>Jardin paysager (attention jeunes enfants – pas de garde-corps)</li>
+                <li>Patio / balcon privé</li>
+                <li>Arrière-cour privée clôturée</li>
+            </ul>
+
+            <h3>Chambre & Linge</h3>
+            <ul>
+                <li>Lave-linge & sèche-linge</li>
+                <li>Serviettes, draps, savon, papier toilette</li>
+                <li>Cintres</li>
+                <li>Fer à repasser</li>
+            </ul>
+
+            <h3>Salle de bain</h3>
+            <ul>
+                <li>Eau chaude</li>
+                <li>3 salles d’eau</li>
+                <li>2 WC</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Cuisine & Salle à manger</h3>
+            <ul>
+                <li>Cuisine équipée</li>
+                <li>Réfrigérateur, four à micro-ondes</li>
+                <li>Lave-vaisselle, cuisinière, four</li>
+                <li>Cafetière</li>
+                <li>Équipements de base (casseroles, huile, sel/poivre)</li>
+                <li>Vaisselle et couverts complets</li>
+            </ul>
+
+            <h3>Confort & Divertissement</h3>
+            <ul>
+                <li>Climatisation</li>
+                <li>Chauffage</li>
+                <li>Télévision</li>
+                <li>Wifi</li>
+            </ul>
+
+            <h3>Parking & Sécurité</h3>
+            <ul>
+                <li>Parking gratuit sur place & dans la rue</li>
+                <li>Caméras extérieures (caméra salon débranchée pendant le séjour)</li>
+                <li>Détecteur de fumée</li>
+                <li>Extincteur</li>
+                <li>Entrée privée</li>
+            </ul>
+
+            <h3>Non inclus</h3>
+            <ul>
+                <li>Détecteur de monoxyde de carbone (non nécessaire selon l’hôte)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
