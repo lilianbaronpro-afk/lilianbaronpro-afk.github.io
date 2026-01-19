@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Maison Saint-Jean-de-Monts - Résidence sécurisée</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f8f9fa; margin: 0; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(to right, #1e3c72, #2a5298); color: white; padding: 3rem 1rem; text-align: center; }
+        .back { color: white; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        h1 { margin: 0; font-size: 2.8rem; }
+        h2 { color: #1e3c72; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem; }
+        .price { font-size: 2.2rem; color: #d32f2f; font-weight: bold; margin: 1rem 0; text-align: center; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin: 2rem 0; }
+        .gallery img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.12); transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.04); }
+        .features { background: white; padding: 1.8rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 2rem 0; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 0.8rem 0; font-size: 1.1rem; }
+        li:before { content: "✔ "; color: #4caf50; font-weight: bold; }
+        .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 768px) { .section-grid { grid-template-columns: 1fr; } }
+        .airbnb-btn { text-align: center; margin: 2.5rem 0; }
+        .airbnb-btn a {
+            background: #FF385C; color: white; padding: 16px 40px; border-radius: 50px; text-decoration: none;
+            font-size: 1.4rem; font-weight: bold; box-shadow: 0 6px 20px rgba(255,56,92,0.3); transition: all 0.3s; display: inline-block;
+        }
+        .airbnb-btn a:hover { background: #e03153; transform: translateY(-3px); }
+    </style>
+</head>
+<body>
+<header>
+    <!-- Bouton Airbnb -->
+    <div class="airbnb-btn">
+        <a href="https://www.airbnb.fr/rooms/1192500197039743487?adults=8&check_in=2026-08-17&search_mode=regular_search&amenities%5B0%5D=7&photo_id=1948078913&source_impression_id=p3_1768470246_P3sHH0K_N4ivs2S2&previous_page_section_name=1001&federated_search_id=5f2f8d55-4e77-4c2a-b8da-353f7b671e89&guests=1&check_out=2026-08-21" target="_blank" rel="noopener noreferrer">
+            Voir sur Airbnb
+        </a>
+    </div>
+    <h1>Maison Saint-Jean-de-Monts</h1>
+    <p>Maison en résidence sécurisée | Entre forêt et plage des Demoiselles | 2 piscines communes | Proche centre et commerces</p>
+    <p><a href="maisons.html" class="back">← Retour à la liste des maisons</a></p>
+</header>
+<div class="container">
+    <div class="price">809 € pour 4 nuits</div>
+    <div class="price">100 € par personne (pour 8 personnes)</div>
+   
+    <h2>Localisation</h2>
+    <p>Saint-Jean-de-Monts (Vendée) — Résidence sécurisée totalement close, située entre la forêt et la plage des Demoiselles. Plage à 1 km (accessible à pied, vélo ou voiture). Supermarchés à 1,5 km (ouverts 7j/7). Calme absolu, idéal pour les familles.</p>
+    <div class="gallery" style="margin: 1.5rem 0;">
+        <img src="images/maison12/gps1.png" alt="Position de Saint-Jean-de-Monts près de la plage des Demoiselles">
+        <img src="images/maison12/gps2.png" alt="Accès résidence et proximité plages/forêt">
+    </div>
+
+    <h2>Galerie du logement (10 photos)</h2>
+    <div class="gallery">
+        <img src="images/maison12/image1.jpg" alt="Vue extérieure maison en résidence">
+        <img src="images/maison12/image2.jpg" alt="Terrasse ombragée et jardin">
+        <img src="images/maison12/image3.jpg" alt="Séjour et coin cuisine ouverts">
+        <img src="images/maison12/image4.jpg" alt="Chambre RDC lit 140 cm">
+        <img src="images/maison12/image5.jpg" alt="Salle d'eau RDC">
+        <img src="images/maison12/image6.jpg" alt="Chambre étage lit 140 cm">
+        <img src="images/maison12/image7.jpg" alt="Mezzanine avec lits superposés et lits 90 cm">
+        <img src="images/maison12/image8.jpg" alt="Salle de bain étage avec baignoire">
+    </div>
+
+    <h2>Ce que propose ce logement</h2>
+    <div class="features section-grid">
+        <div>
+            <h3>Extérieur & Piscine</h3>
+            <ul>
+                <li>Jardin terrasse avec mobilier de jardin</li>
+                <li>Barbecue électrique (autorisé dans la copropriété)</li>
+                <li>Accès à 2 piscines communes non surveillées</li>
+                <li>Résidence totalement close et sécurisée</li>
+            </ul>
+            <h3>Chambre & Linge</h3>
+            <ul>
+                <li>Lave-linge</li>
+                <li>Lit bébé disponible (location conciergerie)</li>
+                <li>Linge de lit et toilette (location conciergerie)</li>
+            </ul>
+            <h3>Sécurité</h3>
+            <ul>
+                <li>Détecteur de fumée</li>
+                <li>Détecteur de monoxyde de carbone</li>
+                <li>Kit de premiers secours</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Cuisine & Salle à manger</h3>
+            <ul>
+                <li>Cuisine équipée ouverte sur pièce de vie</li>
+                <li>Espace repas</li>
+            </ul>
+            <h3>Confort & Divertissement</h3>
+            <ul>
+                <li>Télévision</li>
+            </ul>
+            <h3>Parking & Services</h3>
+            <ul>
+                <li>Parking gratuit sur place (1 place)</li>
+                <li>Accès en voiture</li>
+                <li>Logement de plain-pied partiel + étage</li>
+            </ul>
+            <h3>Non inclus</h3>
+            <ul>
+                <li>Animaux non admis</li>
+                <li>Logement non fumeur</li>
+                <li>Pas de Wifi</li>
+                <li>Pas de sèche-linge</li>
+                <li>Pas de climatisation</li>
+                <li>Pas de chauffage</li>
+                <li>Pas d'eau chaude ? (vérifier listing)</li>
+                <li>Pas d'équipements de base fournis (linge, lit bébé...)</li>
+                <li>Caméras de surveillance extérieures présentes dans la résidence</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
