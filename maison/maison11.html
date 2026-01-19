@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>La Katora - Angles, Vendée</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f8f9fa; margin: 0; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(to right, #1e3c72, #2a5298); color: white; padding: 3rem 1rem; text-align: center; }
+        .back { color: white; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        h1 { margin: 0; font-size: 2.8rem; }
+        h2 { color: #1e3c72; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem; }
+        .price { font-size: 2.2rem; color: #d32f2f; font-weight: bold; margin: 1rem 0; text-align: center; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin: 2rem 0; }
+        .gallery img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.12); transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.04); }
+        .features { background: white; padding: 1.8rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 2rem 0; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 0.8rem 0; font-size: 1.1rem; }
+        li:before { content: "✔ "; color: #4caf50; font-weight: bold; }
+        .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 768px) { .section-grid { grid-template-columns: 1fr; } }
+        .leboncoin-btn { text-align: center; margin: 2.5rem 0; }
+        .leboncoin-btn a {
+            background: #ff6b00; /* Couleur orange Leboncoin */
+            color: white; 
+            padding: 16px 40px; 
+            border-radius: 50px; 
+            text-decoration: none;
+            font-size: 1.4rem; 
+            font-weight: bold; 
+            box-shadow: 0 6px 20px rgba(255,107,0,0.3); 
+            transition: all 0.3s; 
+            display: inline-block;
+        }
+        .leboncoin-btn a:hover { background: #e65c00; transform: translateY(-3px); }
+    </style>
+</head>
+<body>
+<header>
+    <!-- Bouton Leboncoin en orange -->
+    <div class="leboncoin-btn">
+        <a href="https://www.leboncoin.fr/ad/locations_saisonnieres/2070164345" target="_blank" rel="noopener noreferrer">
+            Voir sur Leboncoin
+        </a>
+    </div>
+    <h1>La Katora - Angles, Vendée</h1>
+    <p>Demeure de charme 170 m² | Piscine intérieure chauffée 29° | Classée 4 étoiles | Proche plages de sable fin</p>
+    <p><a href="maisons.html" class="back">← Retour à la liste des maisons</a></p>
+</header>
+<div class="container">
+    <div class="price">1 000 € pour 4 nuits</div>
+    <div class="price">125 € par personne (pour 8 personnes)</div>
+   
+    <h2>Localisation</h2>
+    <p>Angles (Vendée) — Village authentique entre marais poitevin et littoral, à seulement 7 minutes des grandes plages de sable fin de La Tranche-sur-Mer et Longeville-sur-Mer. Situation idéale au cœur du village, proche église classée, commerces et marché.</p>
+    <div class="gallery" style="margin: 1.5rem 0;">
+        <img src="images/maison11/gps1.png" alt="Position d'Angles près des plages vendéennes">
+        <img src="images/maison11/gps2.png" alt="Accès à la demeure et environs">
+    </div>
+
+    <h2>Galerie du logement (19 photos)</h2>
+    <div class="gallery">
+        <img src="images/maison11/image1.jpg" alt="Vue extérieure de la demeure de charme">
+        <img src="images/maison11/image2.jpg" alt="Piscine intérieure chauffée">
+        <img src="images/maison11/image3.jpg" alt="Grand salon avec deux canapés">
+        <img src="images/maison11/image4.jpg" alt="Cuisine spacieuse moderne">
+        <img src="images/maison11/image5.jpg" alt="Accès direct à la piscine depuis le séjour">
+        <img src="images/maison11/image6.jpg" alt="Chambre double 1">
+        <img src="images/maison11/image7.jpg" alt="Chambre double 2">
+        <img src="images/maison11/image8.jpg" alt="Chambre pour 2-4 personnes">
+        <img src="images/maison11/image9.jpg" alt="Salle de bain">
+        <img src="images/maison11/image10.jpg" alt="Jardin clos au cœur du village">
+        <img src="images/maison11/image11.jpg" alt="Patio intime extérieur">
+        <img src="images/maison11/image12.jpg" alt="Terrasse jardin">
+        <img src="images/maison11/image13.jpg" alt="Espace repas extérieur">
+        <img src="images/maison11/image14.jpg" alt="Intérieur alliant authenticité et modernité">
+        <img src="images/maison11/image15.jpg" alt="Chambre principale">
+        <img src="images/maison11/image16.jpg" alt="Rangements et dressing">
+        <img src="images/maison11/image17.jpg" alt="Détails déco charme">
+        <img src="images/maison11/image18.jpg" alt="Ambiance détente piscine">
+        <img src="images/maison11/image19.jpg" alt="Ambiance famille et convivialité">
+    </div>
+
+    <h2>Ce que propose ce logement</h2>
+    <div class="features section-grid">
+        <div>
+            <h3>Vues & Extérieur</h3>
+            <ul>
+                <li>Jardin clos exposé au cœur du village</li>
+                <li>Charmant patio intime</li>
+                <li>Piscine intérieure privée chauffée à 29° (5,5 × 3 × 1,4 m)</li>
+                <li>Terrasses extérieures</li>
+            </ul>
+            <h3>Salle de bain</h3>
+            <ul>
+                <li>Salle(s) de bain équipée(s)</li>
+                <li>Eau chaude</li>
+            </ul>
+            <h3>Chambre & Linge</h3>
+            <ul>
+                <li>Lave-linge</li>
+                <li>Sèche-linge</li>
+                <li>Serviettes et draps fournis</li>
+                <li>Planche à repasser</li>
+                <li>Rangements : placards, dressing</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Cuisine & Salle à manger</h3>
+            <ul>
+                <li>Cuisine spacieuse et complète</li>
+                <li>Lave-vaisselle</li>
+                <li>Réfrigérateur + congélateur</li>
+                <li>Four</li>
+                <li>Table à manger</li>
+            </ul>
+            <h3>Confort & Divertissement</h3>
+            <ul>
+                <li>Télévision</li>
+                <li>Wifi gratuit</li>
+                <li>Chauffage</li>
+            </ul>
+            <h3>Famille</h3>
+            <ul>
+                <li>Chaise haute pour bébé</li>
+            </ul>
+            <h3>Services & Accessibilité</h3>
+            <ul>
+                <li>Parking gratuit</li>
+                <li>Logement non-fumeur</li>
+            </ul>
+            <h3>Non inclus / Infos</h3>
+            <ul>
+                <li>Animaux non acceptés</li>
+                <li>Classée 4 étoiles Meublé de Tourisme</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
